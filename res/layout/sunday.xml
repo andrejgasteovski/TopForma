@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.topformadailyschedule.MainActivity"
+    tools:ignore="MergeRootFrame" 
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/nedela" 
+        android:textColor="@color/purple"
+        android:textSize="14dp"
+        android:background="@drawable/custom_bakcground_day"/>
+
+    <!-- SUNDAY 10:30 -->
+    
+    <!-- HORIZONTAL LINE -->
+    
+    <!-- SUNDAY 18:00 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:minHeight="70dp">
+    	
+    	<!-- BUTTON SUNDAY 18:00 TIME -->
+    	<Button 
+    	    android:id="@+id/button3"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/custom_background_time"
+    	    android:text="18:00"
+    	    android:textColor="@color/green"
+    	    android:textStyle="bold"
+    	    android:minWidth="70dp"
+    	    android:textSize="20dp"/>
+    	
+    	<!-- BUTTON SUNDAY 18:00 TRAINING -->
+    	<Button 
+    	    android:id="@+id/buttonSun1800"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/custom_background_training"
+    	    android:text="@string/mat_pilates_yogalates"
+    	    android:textColor="@color/white"
+    	    android:textStyle="bold"
+    	    android:layout_marginLeft="5dp"
+    	    android:onClick="showMessage"
+    	     android:textSize="20dp"/>
+    </LinearLayout>
+    
+    <!-- SUNDAY 19:00 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:minHeight="70dp">
+    	
+    	<!-- BUTTON SUNDAY 19:00 TIME -->
+    	<Button 
+    	    android:id="@+id/button3"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/custom_background_time"
+    	    android:text="19:00"
+    	    android:textColor="@color/green"
+    	    android:textStyle="bold"
+    	    android:minWidth="70dp"
+    	    android:textSize="20dp"/>
+    	
+    	<!-- BUTTON SUNDAY 19:00 TRAINING -->
+    	<Button 
+    	    android:id="@+id/buttonSun1900"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/custom_background_training"
+    	    android:text="@string/aerobic_body_combat"
+    	    android:textColor="@color/white"
+    	    android:textStyle="bold"
+    	    android:layout_marginLeft="5dp"
+    	    android:onClick="showMessage"
+    	    android:textSize="20dp"/>
+    </LinearLayout>
+    
+    <!-- SUNDAY 20:00 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:minHeight="70dp">
+    	
+    	<!-- BUTTON SUNDAY 20:00 TIME -->
+    	
+    	<!-- BUTTON SUNDAY 20:00 TRAINING -->
+    </LinearLayout>
+
+</LinearLayout>
+

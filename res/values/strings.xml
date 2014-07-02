@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Top Forma</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ponedelnik">ПОНЕДЕЛНИК</string>
+    <string name="vtornik">ВТОРНИК</string>
+    <string name="sreda">СРЕДА</string>
+    <string name="cetvrtok">ЧЕТВРТОК</string>
+    <string name="nedela">НЕДЕЛА</string>
+    
+    <string name="mat_pilates">MAT PILATES</string>
+   	<string name="zumba">ZUMBA</string>
+    <string name="ball_pilates">BALL PILATES</string>
+    <string name="kruzen_trening">КРУЖЕН ТРЕНИНГ</string>
+    <string name="aerobic_morning_mix">AEROBIC MORNING MIX</string>
+    <string name="power_pilates">POWER PILATES</string>
+    <string name="aerobic_body_combat">AEROBIC BODY COMBAT</string>
+    <string name="step_aerobic">STEP AEROBIC</string>
+    <string name="aerobic_metabolic">AEROBIC METABOLIC</string>
+    <string name="mat_pilates_yogalates">MAT PILATES YOGALATES</string>
+    
+</resources>

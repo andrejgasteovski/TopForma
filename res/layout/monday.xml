@@ -48,7 +48,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/mat_pilates"
+    	    android:text="@string/pilates"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
@@ -57,8 +57,9 @@
     </LinearLayout>
     
     <!-- HORIZONTAL LINE -->
+    
     <Button 
-    	    android:id="@+id/buttonMon1800"
+    	    android:id="@+id/monHorizontalLine"
     	    android:layout_width="fill_parent"
     	    android:layout_height="5dp"
     	    android:background="@drawable/custom_background_training"
@@ -81,7 +82,7 @@
     	
     	<!-- BUTTON MONDAY 18:00 TIME -->
     	<Button 
-    	    android:id="@+id/button3"
+    	    android:id="@+id/button4"
     	    android:layout_width="wrap_content"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_time"
@@ -97,7 +98,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/zumba"
+    	    android:text="@string/ball_pilates"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
@@ -117,7 +118,7 @@
     	
     	<!-- BUTTON MONDAY 19:00 TIME -->
     	<Button 
-    	    android:id="@+id/button3"
+    	    android:id="@+id/button5"
     	    android:layout_width="wrap_content"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_time"
@@ -133,7 +134,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/ball_pilates"
+    	    android:text="@string/step_aerobic"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
@@ -153,7 +154,7 @@
     	
     	<!-- BUTTON MONDAY 20:00 TIME -->
     	<Button 
-    	    android:id="@+id/button3"
+    	    android:id="@+id/button6"
     	    android:layout_width="wrap_content"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_time"
@@ -169,7 +170,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/kruzen_trening"
+    	    android:text="@string/zumba"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"

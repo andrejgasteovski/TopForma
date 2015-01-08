@@ -48,7 +48,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/aerobic_metabolic"
+    	    android:text="@string/aerobic_attack"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
@@ -58,7 +58,7 @@
     
     <!-- HORIZONTAL LINE -->
     <Button 
-    	    android:id="@+id/buttonThu1800"
+    	    android:id="@+id/thuHorizontalLine"
     	    android:layout_width="fill_parent"
     	    android:layout_height="5dp"
     	    android:background="@drawable/custom_background_training"
@@ -97,7 +97,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/ball_pilates"
+    	    android:text="@string/zumba"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
@@ -117,7 +117,7 @@
     	
     	<!-- BUTTON THURSDAY 19:00 TIME -->
     	<Button 
-    	    android:id="@+id/button3"
+    	    android:id="@+id/button8"
     	    android:layout_width="wrap_content"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_time"
@@ -133,7 +133,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/aerobic_body_combat"
+    	    android:text="@string/ball_pilates"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
@@ -153,7 +153,7 @@
     	
     	<!-- BUTTON THURSDAY 20:00 TIME -->
     	<Button 
-    	    android:id="@+id/button3"
+    	    android:id="@+id/thuButton3"
     	    android:layout_width="wrap_content"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_time"
@@ -169,7 +169,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/zumba"
+    	    android:text="@string/step_aerobic"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"

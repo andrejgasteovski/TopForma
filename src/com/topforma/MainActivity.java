@@ -69,7 +69,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 	
 	public class AppSectionsPagerAdapter extends FragmentPagerAdapter{
 
-		final int NUM_ITEMS = 5;
+		final int NUM_ITEMS = 6;
 		
 		public AppSectionsPagerAdapter(FragmentManager fm){
 			super(fm);
@@ -106,6 +106,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 				tabLabel = getString(R.string.cetvrtok);
 				break;
 			case 4:
+				tabLabel = getString(R.string.petok);
+				break;
+			case 5:
 				tabLabel = getString(R.string.nedela);
 				break;
 			}
@@ -177,6 +180,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 				tabLayout = R.layout.thursday;
 				break;
 			case 4:
+				tabLayout = R.layout.friday;
+				break;
+			case 5:
 				tabLayout = R.layout.sunday;
 				break;
 			}
@@ -197,75 +203,82 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     	
     	switch(id){
 	    	case(R.id.buttonMon1030):
-	    		instructor = "НЕНАД И ДУШИЦА";
+	    		instructor = "НЕНАД";
 	    		calories = 275;
 	    		break;
 		    case(R.id.buttonMon1800):
-				instructor = "АЛЕКСАНДРА";
-				calories = 550;
+				instructor = "ДУШИЦА";
+				calories = 400;
 				break;
 			case(R.id.buttonMon1900):
-				instructor = "ДУШИЦА";
-				calories = 400;
-				break;
-			case(R.id.buttonMon2000):
-				instructor = "ДУШИЦА";
-				calories = 700;
-				break;
-		    case(R.id.buttonTue1030):
-				instructor = "НЕНАД И ДУШИЦА";
-				calories = 600;
-				break;
-		    case(R.id.buttonTue1800):
-				instructor = "БИСЕРА";
-				calories = 320;
-				break;
-			case(R.id.buttonTue1900):
-				instructor = "НЕНАД И ДУШИЦА";
-				calories = 550;
-				break;
-			case(R.id.buttonTue2000):
-				instructor = "АЛЕКСАНДРА";
+				instructor = "НЕНАД";
 				calories = 750;
 				break;
-			case(R.id.buttonWed1030):
-				instructor = "НЕНАД И ДУШИЦА";
-				calories = 400;
+			case(R.id.buttonMon2000):
+				instructor = "АЛЕКСАНДРА";
+				calories = 550;
 				break;
-		    case(R.id.buttonWed1800):
-				instructor = "ДУШИЦА";
-				calories = 500;
+		    case(R.id.buttonTue1030):
+				instructor = "НЕНАД";
+				calories = 750;
 				break;
-			case(R.id.buttonWed1900):
+		    case(R.id.buttonTue1800):
+				instructor = "АЛЕКСАНДРА";
+				calories = 550;
+				break;
+			case(R.id.buttonTue1900):
 				instructor = "НЕНАД";
 				calories = 275;
 				break;
-		
-			case(R.id.buttonWed2000):
-				instructor = "ДУШИЦА";
-				calories = 700;
-				break;
-			case(R.id.buttonThu1030):
-				instructor = "НЕНАД И ДУШИЦА";
-				calories = 700;
-				break;
-		    case(R.id.buttonThu1800):
-				instructor = "НЕНАД";
-				calories = 400;
-				break;
-			case(R.id.buttonThu1900):
+			case(R.id.buttonTue2000):
 				instructor = "НЕНАД";
 				calories = 750;
 				break;
-			case(R.id.buttonThu2000):
+			case(R.id.buttonWed1030):
+				instructor = "ДУШИЦА";
+				calories = 400;
+				break;
+		    case(R.id.buttonWed1800):
+				instructor = "БИСЕРА";
+				calories = 275;
+				break;
+			case(R.id.buttonWed1900):
+				instructor = "НЕНАД";
+				calories = 750;
+				break;
+			case(R.id.buttonThu1030):
+				instructor = "НЕНАД";
+				calories = 750;
+				break;
+		    case(R.id.buttonThu1800):
 				instructor = "АЛЕКСАНДРА";
 				calories = 550;
 				break;
-			 case(R.id.buttonSun1800):
-					instructor = "БИСЕРА";
-					calories = 250;
+			case(R.id.buttonThu1900):
+				instructor = "НЕНАД";
+				calories = 400;
+				break;
+			case(R.id.buttonThu2000):
+				instructor = "НЕНАД";
+				calories = 750;
+				break;
+			case(R.id.buttonFri1030):
+				instructor = "ДУШИЦА";
+				calories = 275;
+				break;
+		    case(R.id.buttonFri1800):
+				instructor = "БИСЕРА";
+				calories = 500;
+				break;
+			case(R.id.buttonFri1900):
+				instructor = "НЕНАД";
+				calories = 750;
+				break;
+			case(R.id.buttonSun1800):
+					instructor = "ДУШИЦА";
+					calories = 275;
 					break;
-				case(R.id.buttonSun1900):
+			case(R.id.buttonSun1900):
 					instructor = "НЕНАД";
 					calories = 750;
 					break;

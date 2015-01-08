@@ -97,7 +97,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/step_aerobic"
+    	    android:text="@string/pilates"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
@@ -117,7 +117,7 @@
     	
     	<!-- BUTTON WEDNESDAY 19:00 TIME -->
     	<Button 
-    	    android:id="@+id/button3"
+    	    android:id="@+id/button31"
     	    android:layout_width="wrap_content"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_time"
@@ -133,43 +133,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/mat_pilates"
-    	    android:textColor="@color/white"
-    	    android:textStyle="bold"
-    	    android:layout_marginLeft="5dp"
-    	    android:onClick="showMessage"
-    	    android:textSize="20dp"/>
-    </LinearLayout>
-    
-    <!-- WEDNESDAY 20:00 -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:orientation="horizontal"
-        android:minHeight="70dp">
-    	
-    	<!-- BUTTON WEDNESDAY 20:00 TIME -->
-    	<Button 
-    	    android:id="@+id/button3"
-    	    android:layout_width="wrap_content"
-    	    android:layout_height="fill_parent"
-    	    android:background="@drawable/custom_background_time"
-    	    android:text="20:00"
-    	    android:textColor="@color/green"
-    	    android:textStyle="bold"
-    	    android:minWidth="70dp"
-    	    android:textSize="20dp"/>
-    	
-    	<!-- BUTTON WEDNESDAY 20:00 TRAINING -->
-    	<Button 
-    	    android:id="@+id/buttonWed2000"
-    	    android:layout_width="fill_parent"
-    	    android:layout_height="fill_parent"
-    	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/aerobic_metabolic"
+    	    android:text="@string/aerobic_attack"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
@@ -177,5 +141,6 @@
     	    android:textSize="20dp"/>
     </LinearLayout>
 
+    
 </LinearLayout>
 

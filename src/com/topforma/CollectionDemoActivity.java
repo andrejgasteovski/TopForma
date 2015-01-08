@@ -100,7 +100,10 @@ public class CollectionDemoActivity extends FragmentActivity {
 				//tabLabel = getString(R.string.nedela);
 				tabLabel = "ПЕТОК";
 				break;
-				
+			case 5:
+				//tabLabel = getString(R.string.nedela);
+				tabLabel = "НЕДЕЛА";
+				break;	
 			}
 			
 			return tabLabel;

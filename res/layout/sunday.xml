@@ -96,6 +96,42 @@
     	    android:textSize="20dp"/>
     </LinearLayout>
     
+        <!-- SUNDAY 20:00 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:minHeight="70dp">
+    	
+    	<!-- BUTTON SUNDAY 20:00 TIME -->
+    	<Button 
+    	    android:id="@+id/sunButton5"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/custom_background_time"
+    	    android:text="20:00"
+    	    android:textColor="@color/green"
+    	    android:textStyle="bold"
+    	    android:minWidth="70dp"
+    	    android:textSize="20dp"/>
+    	
+    	<!-- BUTTON SUNDAY 20:00 TRAINING -->
+    	<Button 
+    	    android:id="@+id/buttonSun2000"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:background="@drawable/custom_background_training"
+    	    android:text="@string/step_aerobic"
+    	    android:textColor="@color/white"
+    	    android:textStyle="bold"
+    	    android:layout_marginLeft="5dp"
+    	    android:onClick="showMessage"
+    	    android:textSize="20dp"/>
+    </LinearLayout>
+    
     
 
 </LinearLayout>

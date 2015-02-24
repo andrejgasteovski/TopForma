@@ -20,8 +20,10 @@
     <string name="aerobic_morning_mix">AEROBIC MORNING MIX</string>
     <string name="power_pilates">POWER PILATES</string>
     <string name="aerobic_body_combat">AEROBIC COMBAT</string>
+    <string name="aerobic_combat_attack">AEROBIC COMBAT/ATTACK</string>
     <string name="aerobic_attack">AEROBIC ATTACK</string>
     <string name="step_aerobic">STEP AEROBIC</string>
+    <string name="aerobic_step_dance">AEROBIC STEP/DANCE</string>
     <string name="aerobic_metabolic">AEROBIC METABOLIC</string>
     <string name="mat_pilates_yogalates">PILATES YOGALATES</string>
     

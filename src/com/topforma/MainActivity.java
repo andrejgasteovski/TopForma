@@ -207,7 +207,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 	    		calories = 275;
 	    		break;
 		    case(R.id.buttonMon1800):
-				instructor = "ДУШИЦА";
+				instructor = "БИСЕРА";
 				calories = 400;
 				break;
 			case(R.id.buttonMon1900):
@@ -235,11 +235,11 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 				calories = 750;
 				break;
 			case(R.id.buttonWed1030):
-				instructor = "ДУШИЦА";
+				instructor = "БИСЕРА";
 				calories = 400;
 				break;
 		    case(R.id.buttonWed1800):
-				instructor = "БИСЕРА";
+				instructor = "ДУШИЦА";
 				calories = 275;
 				break;
 			case(R.id.buttonWed1900):
@@ -247,7 +247,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 				calories = 750;
 				break;
 			case(R.id.buttonThu1030):
-				instructor = "НЕНАД";
+				instructor = "ДУШИЦА";
 				calories = 750;
 				break;
 		    case(R.id.buttonThu1800):
@@ -282,6 +282,10 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 					instructor = "НЕНАД";
 					calories = 750;
 					break;
+			case(R.id.buttonSun2000):
+				instructor = "НЕНАД";
+				calories = 750;
+				break;
 			}
     
     		AlertDialog alertDialog = new AlertDialog.Builder(this).create();

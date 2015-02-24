@@ -48,7 +48,7 @@
     	    android:layout_width="fill_parent"
     	    android:layout_height="fill_parent"
     	    android:background="@drawable/custom_background_training"
-    	    android:text="@string/aerobic_body_combat"
+    	    android:text="@string/aerobic_combat_attack"
     	    android:textColor="@color/white"
     	    android:textStyle="bold"
     	    android:layout_marginLeft="5dp"
